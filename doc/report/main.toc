@@ -1,0 +1,8 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{\numberline {1}Processo di sviluppo}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Requisiti}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}Design architetturale}{5}{chapter.3}
+\contentsline {chapter}{\numberline {4}Design di dettaglio}{7}{chapter.4}
+\contentsline {chapter}{\numberline {5}Implementazione}{9}{chapter.5}
+\contentsline {chapter}{\numberline {6}Retrospettiva}{11}{chapter.6}

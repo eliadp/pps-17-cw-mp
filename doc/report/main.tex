@@ -1,0 +1,72 @@
+\documentclass[12pt,a4paper,twoside,openright]{book}
+
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{caption}
+\usepackage[usenames]{color}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{indentfirst}
+\usepackage{listings}
+\usepackage{marvosym}
+\usepackage{multicol}
+\usepackage{sectsty}
+\usepackage{subcaption}
+\usepackage{tocloft}
+\usepackage[table]{xcolor}
+\usepackage{url}
+
+%vedere come influirebbe su citazioni ecc.
+%\hypersetup{
+%    colorlinks,
+%    citecolor=black,
+%    filecolor=black,
+%    linkcolor=black, %choose some color if you want links to stand out
+%    urlcolor=black
+%}
+\hypersetup{
+   hidelinks,
+   linktoc=all     %set to all if you want both sections and subsections linked
+}
+
+\input{style/settings.tex}
+
+\input{frontispiece.tex}
+
+\makeindex
+
+\begin{document}
+\maketitle
+
+\frontmatter 
+
+\tableofcontents
+
+%\input{introduction.tex}
+	
+\mainmatter
+
+\pagestyle{fancy} 
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+
+\input{chapter1_development_process.tex}
+\input{chapter2_requirements.tex}
+\input{chapter3_architectural_design.tex}
+\input{chapter4_detail_design.tex}
+\input{chapter5_implementation.tex}
+\input{chapter6_retrospective.tex}
+
+%\input{conclusions.tex}
+	
+%\backmatter	
+
+%\input{bibliography.tex}
+
+\end{document}
