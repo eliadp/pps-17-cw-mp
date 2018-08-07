@@ -10,6 +10,9 @@
 rootProject.name = 'pps-17-cw-mp'
 
 include 'core'
+include 'core-testing'
 include 'client'
-include 'server:authentication'
-include 'server:rooms'
+include 'server'
+include 'services:authentication'
+include 'services:rooms'
+include 'services:room-receiver'

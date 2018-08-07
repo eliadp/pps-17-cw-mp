@@ -1,7 +1,0 @@
-apply plugin: 'application'
-
-mainClassName = 'ServerHelloMain'
-
-dependencies {
-    implementation project(':core')
-}
